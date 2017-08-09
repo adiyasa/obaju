@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="item1.xsl"?>
+<CATALOG>
+	<GENDER gender = Female>
+		<TYPE type = T-shirt>
+			<PRODUCT Id = '13'>
+				<IMAGE>images/image27</IMAGE>
+				<IMAGE2>images/image28</IMAGE2>
+				<NAME>A|X WINGS LOGO TEE</NAME>
+				<BRAND>Armani</BRAND>
+				<PRICE>50</PRICE>
+				<PRODUCTDETAIL>Delicate wings evoke A|X's classic eagle insignia in a new way.</PRODUCTDETAIL>
+				<MATERIAL>100% Cotton,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Armani's new range of Tees, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '14'>
+				<IMAGE>images/image29</IMAGE>
+				<IMAGE2>images/image30</IMAGE2>
+				<NAME>SEQUIN LOGO CREWNECK TEE</NAME>
+				<BRAND>Armani</BRAND>
+				<PRICE>50</PRICE>
+				<PRODUCTDETAIL>Our classic logo gets a glam update, studded in high-shine reflective sequins.</PRODUCTDETAIL>
+				<MATERIAL>100% Cotton,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Armani's new range of tees, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '15'>
+				<IMAGE>images/image31</IMAGE>
+				<IMAGE2>images/image32</IMAGE2>
+				<NAME>Versace Embroidered T-shirt</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>415</PRICE>
+				<PRODUCTDETAIL>Embroidered in neon green, the designer's name serves as a bold announcement of the iconic house. Wear the buttoned-neck look with your favourite bomber jacket for downtown cool.</PRODUCTDETAIL>
+				<MATERIAL>90% viscose, 10% elastane, Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '16'>
+				<IMAGE>images/image33</IMAGE>
+				<IMAGE2>images/image34</IMAGE2>
+				<NAME>Versace Logo contrast top</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>1200</PRICE>
+				<PRODUCTDETAIL>Make a vibrant statement with this top from Versace with its contrasting colour panels. The designer logo emblazoned on the front has a tactile feel that shows your love for Versace artfully.</PRODUCTDETAIL>
+				<MATERIAL>71% acetate, 29% viscose,Dry clean</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+		</TYPE>
+		<TYPE type = Shirt>
+			<PRODUCT Id = '17'>
+				<IMAGE>images/image35</IMAGE>
+				<IMAGE2>images/image36</IMAGE2>
+				<NAME>Armani Blue stretch cotton plain shirt</NAME>
+				<BRAND>Armani</BRAND>
+				<PRICE>115</PRICE>
+				<PRODUCTDETAIL>Blue stretch cotton plain shirt from Armani Jeans. Crafted from a high quality fabric, this piece delivers a soft touch to the skin whilst keeping your basic ensembles stylish.</PRODUCTDETAIL>
+				<MATERIAL>100% Cotton,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Armani's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '18'>
+				<IMAGE>images/image37</IMAGE>
+				<IMAGE2>images/image38</IMAGE2>
+				<NAME>Armani Chambray Shirt</NAME>
+				<BRAND>Armani</BRAND>
+				<PRICE>115</PRICE>
+				<PRODUCTDETAIL>This Armani Jeans Chambray shirt is a luxurious alternative to a classic denim shirt. Crafted from a high quality fabric, this piece delivers a soft touch to the skin whilst keeping your basic ensembles stylish.</PRODUCTDETAIL>
+				<MATERIAL>100% lyocell,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Armani's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '19'>
+				<IMAGE>images/image39</IMAGE>
+				<IMAGE2>images/image40</IMAGE2>
+				<NAME>Versace Printed silk-twill shirt</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>1350</PRICE>
+				<PRODUCTDETAIL>This silk-twill shirt is paneled with leopard spots through the front and zebra stripes at the back. It's finished with gold 'Medusa' buttons at the collar and cuffs and is intended for a slightly loose fit.</PRODUCTDETAIL>
+				<MATERIAL>100% silk, Dry Clean</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Versace’s new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '20'>
+				<IMAGE>images/imaget41</IMAGE>
+				<IMAGE2>images/image42</IMAGE2>
+				<NAME>Versace Baroccoflage print shirt</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>1450</PRICE>
+				<PRODUCTDETAIL>Cut in Italy from multicoloured silk, the vibrant piece boasts a classic collar, long sleeves with button cuffs, a concealed front button placket, a loose-fitting flowy silhouette.</PRODUCTDETAIL>
+				<MATERIAL>100% Silk.,Dry Clean</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '21'>
+				<IMAGE>images/image43</IMAGE>
+				<IMAGE2>images/image44</IMAGE2>
+				<NAME>Versace printed shirt</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>650</PRICE>
+				<PRODUCTDETAIL>This multicoloured printed shirt is a prime example, fashioned in Italy from lustrous silk. It features a classic collared neckline, long sleeves with buttoned cuffs, a concealed front button fastening, a loose fit and a curved hemline.</PRODUCTDETAIL>
+				<MATERIAL>100% Silk.,Dry Clean</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+		</TYPE>
+		<TYPE type = Pants>
+			<PRODUCT Id = '22'>
+				<IMAGE>images/image45</IMAGE>
+				<IMAGE2>images/image46</IMAGE2>
+				<NAME>Carlo Bruni Cream High Waisted Wide Leg pants</NAME>
+				<BRAND>Carlo Bruni</BRAND>
+				<PRICE>65</PRICE>
+				<PRODUCTDETAIL>With super flattering curve skimming fabric and tailoring detail. Wear with a crop top, shirt or bodysuit for a sophisticated feel. Length approx 115cm/45".</PRODUCTDETAIL>
+				<MATERIAL>100% Cotton,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Carlo Bruni's new range of fashion, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '23'>
+				<IMAGE>images/image47</IMAGE>
+				<IMAGE2>images/image48</IMAGE2>
+				<NAME>Jack Honey loose fit cropped pants</NAME>
+				<BRAND>Jack Honey</BRAND>
+				<PRICE>115</PRICE>
+				<PRODUCTDETAIL>Beige loose fit cropped trousers.</PRODUCTDETAIL>
+				<MATERIAL>100% Cotton,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Jack Honey's new range of pants, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '24'>
+				<IMAGE>images/image49</IMAGE>
+				<IMAGE2>images/image50</IMAGE2>
+				<NAME>Jack Honey striped flared trousers</NAME>
+				<BRAND>Jack Honey</BRAND>
+				<PRICE>515</PRICE>
+				<PRODUCTDETAIL>Black and brown striped flared trousers from Jack Honey.</PRODUCTDETAIL>
+				<MATERIAL>100% Viscose,Machine wash</MATERIAL>
+				<SIZE>Regular fit,The model (height 5'8" and chest 33") is wearing a size S</SIZE>
+				<DESCRIPTION>Define style this season with Jack Honey's new range of pants, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+		</TYPE>
+		<TYPE type = Accessories>
+			<PRODUCT Id = '25'>
+				<IMAGE>images/image51</IMAGE>
+				<IMAGE2>images/image52</IMAGE2>
+				<NAME>Versace Medusa belt</NAME>
+				<BRAND>Versace</BRAND>
+				<PRICE>666</PRICE>
+				<PRODUCTDETAIL>Black calf leather Medusa belt from Versace featuring gold-tone hardware and an adjustable fit</PRODUCTDETAIL>
+				<MATERIAL>100% Calf Leather</MATERIAL>
+				<SIZE>36” Waist</SIZE>
+				<DESCRIPTION>Define style this season with Versace's new range of belts, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '26'>
+				<IMAGE>images/image53</IMAGE>
+				<IMAGE2>images/image54</IMAGE2>
+				<NAME>Armani Borsa Bag</NAME>
+				<BRAND>Armani</BRAND>
+				<PRICE>666</PRICE>
+				<PRODUCTDETAIL>The Borsa Shopping Bag from Armani Jeans is sleek and simple with its luxe leather-look shell, silver-toned hardware and elegant red lining.</PRODUCTDETAIL>
+				<MATERIAL>100% Calf Leather</MATERIAL>
+				<SIZE>H28cm x W46cm x D8cm</SIZE>
+				<DESCRIPTION>Define style this season with Armani's new range of bags, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+			<PRODUCT Id = '27'>
+				<IMAGE>images/image55</IMAGE>
+				<IMAGE2>images/image56</IMAGE2>
+				<NAME>Carlo Bruni clutch</NAME>
+				<BRAND>Carlo Bruni</BRAND>
+				<PRICE>1666</PRICE>
+				<PRODUCTDETAIL>Black leather knuckle box clutch from Alexander McQueen featuring gold-tone hardware, an oblong body, crystal embellishments and a gold-tone stud detailing.</PRODUCTDETAIL>
+				<MATERIAL>50% Leather,50% Other Fibres </MATERIAL>
+				<SIZE>H7cm x W22cm x D4.5cm</SIZE>
+				<DESCRIPTION>Define style this season with Carlo Bruni's new range of bags, crafted with intricate details.</DESCRIPTION>
+			</PRODUCT>
+		</TYPE>
+	</GENDER>
+</CATALOG>
