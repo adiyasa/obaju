@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="item1.xsl"?>
 <CATALOG>
-	<GENDER gender = Male>
-		<TYPE type = T-shirt>
+	<GENDER gender = 'Male'>
+		<TYPE type = 'T-shirt'>
 			<PRODUCT Id = '0'>
 				<IMAGE>images/men_tshirt1</IMAGE>
 				<IMAGE2>images/men_tshirt1_2</IMAGE2>
@@ -59,7 +59,7 @@
 				<DESCRIPTION>Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Shirt>
+		<TYPE type = 'Shirt'>
 			<PRODUCT Id = '5'>
 				<IMAGE>images/men_shirt1</IMAGE>
 				<IMAGE2>images/men_shirt1_2</IMAGE2>
@@ -94,7 +94,7 @@
 				<DESCRIPTION>Define style this season with Versace's new range of trendy tops, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Pants>
+		<TYPE type = 'Pants'>
 			<PRODUCT Id = '8'>
 				<IMAGE>images/men_pants1</IMAGE>
 				<IMAGE2>images/men_pants1_2</IMAGE2>
@@ -118,7 +118,7 @@
 				<DESCRIPTION>Define style this season with Carlo Bruni's new range of jeans, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Accessories>
+		<TYPE type = 'Accessories'>
 			<PRODUCT Id = '10'>
 				<IMAGE>images/men_acc1</IMAGE>
 				<IMAGE2>images/men_acc1_2</IMAGE2>
