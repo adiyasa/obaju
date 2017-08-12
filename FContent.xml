@@ -4,8 +4,8 @@
 	<GENDER gender = Female>
 		<TYPE type = T-shirt>
 			<PRODUCT Id = '13'>
-				<IMAGE>images/image27</IMAGE>
-				<IMAGE2>images/image28</IMAGE2>
+				<IMAGE>images/women_tshirt1</IMAGE>
+				<IMAGE2>images/women_tshirt1_2</IMAGE2>
 				<NAME>A|X WINGS LOGO TEE</NAME>
 				<BRAND>Armani</BRAND>
 				<PRICE>50</PRICE>
@@ -15,8 +15,8 @@
 				<DESCRIPTION>Define style this season with Armani's new range of Tees, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '14'>
-				<IMAGE>images/image29</IMAGE>
-				<IMAGE2>images/image30</IMAGE2>
+				<IMAGE>images/women_tshirt2</IMAGE>
+				<IMAGE2>images/women_tshirt2_2</IMAGE2>
 				<NAME>SEQUIN LOGO CREWNECK TEE</NAME>
 				<BRAND>Armani</BRAND>
 				<PRICE>50</PRICE>
@@ -26,8 +26,8 @@
 				<DESCRIPTION>Define style this season with Armani's new range of tees, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '15'>
-				<IMAGE>images/image31</IMAGE>
-				<IMAGE2>images/image32</IMAGE2>
+				<IMAGE>images/women_tshirt3</IMAGE>
+				<IMAGE2>images/women_tshirt3_2</IMAGE2>
 				<NAME>Versace Embroidered T-shirt</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>415</PRICE>
@@ -37,8 +37,8 @@
 				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '16'>
-				<IMAGE>images/image33</IMAGE>
-				<IMAGE2>images/image34</IMAGE2>
+				<IMAGE>images/women_tshirt4</IMAGE>
+				<IMAGE2>images/women_tshirt4_2</IMAGE2>
 				<NAME>Versace Logo contrast top</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>1200</PRICE>
@@ -50,8 +50,8 @@
 		</TYPE>
 		<TYPE type = Shirt>
 			<PRODUCT Id = '17'>
-				<IMAGE>images/image35</IMAGE>
-				<IMAGE2>images/image36</IMAGE2>
+				<IMAGE>images/women_shirt1</IMAGE>
+				<IMAGE2>images/women_shirt1_2</IMAGE2>
 				<NAME>Armani Blue stretch cotton plain shirt</NAME>
 				<BRAND>Armani</BRAND>
 				<PRICE>115</PRICE>
@@ -61,8 +61,8 @@
 				<DESCRIPTION>Define style this season with Armani's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '18'>
-				<IMAGE>images/image37</IMAGE>
-				<IMAGE2>images/image38</IMAGE2>
+				<IMAGE>images/women_shirt2</IMAGE>
+				<IMAGE2>images/women_shirt2_2</IMAGE2>
 				<NAME>Armani Chambray Shirt</NAME>
 				<BRAND>Armani</BRAND>
 				<PRICE>115</PRICE>
@@ -72,8 +72,8 @@
 				<DESCRIPTION>Define style this season with Armani's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '19'>
-				<IMAGE>images/image39</IMAGE>
-				<IMAGE2>images/image40</IMAGE2>
+				<IMAGE>images/women_shirt3</IMAGE>
+				<IMAGE2>images/women_shirt3_2</IMAGE2>
 				<NAME>Versace Printed silk-twill shirt</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>1350</PRICE>
@@ -83,8 +83,8 @@
 				<DESCRIPTION>Define style this season with Versace’s new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '20'>
-				<IMAGE>images/imaget41</IMAGE>
-				<IMAGE2>images/image42</IMAGE2>
+				<IMAGE>images/women_shirt4</IMAGE>
+				<IMAGE2>images/women_shirt4_2</IMAGE2>
 				<NAME>Versace Baroccoflage print shirt</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>1450</PRICE>
@@ -94,8 +94,8 @@
 				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '21'>
-				<IMAGE>images/image43</IMAGE>
-				<IMAGE2>images/image44</IMAGE2>
+				<IMAGE>images/women_shirt5</IMAGE>
+				<IMAGE2>images/women_shirt5_2</IMAGE2>
 				<NAME>Versace printed shirt</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>650</PRICE>
@@ -107,8 +107,8 @@
 		</TYPE>
 		<TYPE type = Pants>
 			<PRODUCT Id = '22'>
-				<IMAGE>images/image45</IMAGE>
-				<IMAGE2>images/image46</IMAGE2>
+				<IMAGE>images/women_pants1</IMAGE>
+				<IMAGE2>images/women_pants1_2</IMAGE2>
 				<NAME>Carlo Bruni Cream High Waisted Wide Leg pants</NAME>
 				<BRAND>Carlo Bruni</BRAND>
 				<PRICE>65</PRICE>
@@ -118,8 +118,8 @@
 				<DESCRIPTION>Define style this season with Carlo Bruni's new range of fashion, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '23'>
-				<IMAGE>images/image47</IMAGE>
-				<IMAGE2>images/image48</IMAGE2>
+				<IMAGE>images/women_pants2</IMAGE>
+				<IMAGE2>images/women_pants2_2</IMAGE2>
 				<NAME>Jack Honey loose fit cropped pants</NAME>
 				<BRAND>Jack Honey</BRAND>
 				<PRICE>115</PRICE>
@@ -129,8 +129,8 @@
 				<DESCRIPTION>Define style this season with Jack Honey's new range of pants, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '24'>
-				<IMAGE>images/image49</IMAGE>
-				<IMAGE2>images/image50</IMAGE2>
+				<IMAGE>images/women_pants3</IMAGE>
+				<IMAGE2>images/women_pants3_2</IMAGE2>
 				<NAME>Jack Honey striped flared trousers</NAME>
 				<BRAND>Jack Honey</BRAND>
 				<PRICE>515</PRICE>
@@ -142,8 +142,8 @@
 		</TYPE>
 		<TYPE type = Accessories>
 			<PRODUCT Id = '25'>
-				<IMAGE>images/image51</IMAGE>
-				<IMAGE2>images/image52</IMAGE2>
+				<IMAGE>images/women_acc1</IMAGE>
+				<IMAGE2>images/women_acc1_2</IMAGE2>
 				<NAME>Versace Medusa belt</NAME>
 				<BRAND>Versace</BRAND>
 				<PRICE>666</PRICE>
@@ -153,8 +153,8 @@
 				<DESCRIPTION>Define style this season with Versace's new range of belts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '26'>
-				<IMAGE>images/image53</IMAGE>
-				<IMAGE2>images/image54</IMAGE2>
+				<IMAGE>images/women_acc2</IMAGE>
+				<IMAGE2>images/women_acc2_2</IMAGE2>
 				<NAME>Armani Borsa Bag</NAME>
 				<BRAND>Armani</BRAND>
 				<PRICE>666</PRICE>
@@ -164,8 +164,8 @@
 				<DESCRIPTION>Define style this season with Armani's new range of bags, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 			<PRODUCT Id = '27'>
-				<IMAGE>images/image55</IMAGE>
-				<IMAGE2>images/image56</IMAGE2>
+				<IMAGE>images/women_acc3</IMAGE>
+				<IMAGE2>images/women_acc3_2</IMAGE2>
 				<NAME>Carlo Bruni clutch</NAME>
 				<BRAND>Carlo Bruni</BRAND>
 				<PRICE>1666</PRICE>
