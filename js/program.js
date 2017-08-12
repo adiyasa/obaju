@@ -24,6 +24,16 @@ function myFunction(data){
 		document.getElementsByClassName("textproduct")[count].innerHTML = 	$(product[count]).find("NAME").text()
 	}
 }
+function womanXmlFilter(type,brand){
+	$( document ).ready(function() {
+	    $.ajax({
+	        type: "GET",
+	        url: 'xml/dataFemale.xml',
+	        dataType: "xml",
+	        success: function (xml) { filterMen(xml,type,brand); }
+	    });
+	});
+}
 function manXmlFilter(type,brand){
 	$( document ).ready(function() {
 	    $.ajax({
@@ -55,6 +65,7 @@ function filterMen(data,type,brand){
 
 	}
 	productShown = filter;
+	showProduct();
 	console.log (productShown)
 	bubblesort(productShown);
 	document.getElementById("showText").innerHTML = "Showing <strong>"+productShown.length+"</strong> of <strong>"+productShown.length+"</strong> products";
@@ -64,12 +75,8 @@ $( document ).ready(function() {
 	$("#sort").change(function(){
 	    bubblesort(productShown)
 	});
-	var page = $(".pagination")
-	page.empty()
-	var goPrev = '<li><a href="#">&laquo;</a></li>'
-	page.append(goPrev);
-	var goNext = '<li><a href="#">&raquo;</a></li>'
-	page.append(goNext)
+	
+
 })
 function bubblesort(data){
 	var swapped;
@@ -116,37 +123,35 @@ function bubblesort(data){
 	productShown = filter
 }
 function showProduct(limiter){
-	if (limiter==null){
-		manXmlFilter()
-		limit = null;
-	}
-	else{
-		filter = productShown
-		
-		document.getElementById("showText").innerHTML = "Showing <strong>"+limiter+"</strong> of <strong>"+productShown.length+"</strong> products";
 
-	    $("#rows").empty()
-		for (var i=0; i<limiter;i++){
-			var string = '<div class="col-md-4 col-sm-6"><div class="product">                                <div class="flip-container">                                    <div class="flipper">                                        <div class="front">                                            <a href="detail.html">                                                <img src='+$(filter[i]).find("IMAGE").text()+".jpeg"+' alt="" class="img-responsive" id = "asd">                                            </a>                                        </div>                                        <div class="back">`                                            <a href="detail.html">                                                <img src="'+$(filter[i]).find("IMAGE2").text()+".jpeg"+'" alt="" class="img-responsive">                                            </a>                                        </div>                                    </div>                                </div>                               <a href="detail.html" class="invisible">                                   <img src="img/product1.jpg" alt="" class="img-responsive">                              </a>                             <div class="text">                                  <h3><a href="detail.html">'+$(filter[i]).find("NAME").text()+'</a></h3>                                  <p class="price">$'+$(filter[i]).find("PRICE").text()+'</p>                                    <p class="buttons">                                     <a href="detail.html" class="btn btn-default">View detail</a>                                     <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>                                </p>                               </div>                                <!-- /.text -->                            </div>                            <!-- /.product -->                        </div>'
 
-			$("#rows").append(string);
-		}
-		limit = limiter
-		index = limiter-1;
-		var page = $(".pagination")
-		page.empty()
-		var goPrev = '<li><a href="#">&laquo;</a></li>'
-		page.append(goPrev);
-		for (var i=0; i<Math.floor(productShown.length/limiter);i++){
-			var string = '<li><a href="#" onclick="showProduct()">'+(i+1).toString()+'</a></li>'
-			page.append(string)
-		}
-		var goNext = '<li><a href="#">&raquo;</a></li>'
-		page.append(goNext)
+	filter = productShown
+	
+	document.getElementById("showText").innerHTML = "Showing <strong>"+limiter+"</strong> of <strong>"+productShown.length+"</strong> products";
+
+    $("#rows").empty()
+	for (var i=0; i<limiter;i++){
+		var string = '<div class="col-md-4 col-sm-6"><div class="product">                                <div class="flip-container">                                    <div class="flipper">                                        <div class="front">                                            <a href="detail.html">                                                <img src='+$(filter[i]).find("IMAGE").text()+".jpeg"+' alt="" class="img-responsive" id = "asd">                                            </a>                                        </div>                                        <div class="back">`                                            <a href="detail.html">                                                <img src="'+$(filter[i]).find("IMAGE2").text()+".jpeg"+'" alt="" class="img-responsive">                                            </a>                                        </div>                                    </div>                                </div>                               <a href="detail.html" class="invisible">                                   <img src="img/product1.jpg" alt="" class="img-responsive">                              </a>                             <div class="text">                                  <h3><a href="detail.html">'+$(filter[i]).find("NAME").text()+'</a></h3>                                  <p class="price">$'+$(filter[i]).find("PRICE").text()+'</p>                                    <p class="buttons">                                     <a href="detail.html" class="btn btn-default">View detail</a>                                     <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>                                </p>                               </div>                                <!-- /.text -->                            </div>                            <!-- /.product -->                        </div>'
+
+		$("#rows").append(string);
 	}
+	limit = limiter
+	index = limiter-1;
+	var page = $(".pagination")
+	page.empty()
+	var goPrev = '<li><a href="#">&laquo;</a></li>'
+	page.append(goPrev);
+	for (var i=0; i<Math.ceil(productShown.length/limiter);i++){
+		var string = '<li><onclick="showProduct()">'+(i+1).toString()+'</a></li>'
+		page.append(string)
+	}
+	var goNext = '<li><a href="#">&raquo;</a></li>'
+	page.append(goNext)
+
 	
 
 }
+function goNextPage(){}
 function changeClass(chage){
 	$(".btn.btn-default.btn-primary").attr('class', 'btn btn-default btn-sm');
 	$(chage).attr("class",'btn btn-default btn-primary')

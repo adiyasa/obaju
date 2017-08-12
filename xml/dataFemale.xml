@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="item1.xsl"?>
 <CATALOG>
-	<GENDER gender = Female>
-		<TYPE type = T-shirt>
+	<GENDER gender = 'Female'>
+		<TYPE type = 'T-shirt'>
 			<PRODUCT Id = '13'>
 				<IMAGE>images/women_tshirt1</IMAGE>
 				<IMAGE2>images/women_tshirt1_2</IMAGE2>
@@ -48,7 +48,7 @@
 				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Shirt>
+		<TYPE type = 'Shirt'>
 			<PRODUCT Id = '17'>
 				<IMAGE>images/women_shirt1</IMAGE>
 				<IMAGE2>images/women_shirt1_2</IMAGE2>
@@ -105,7 +105,7 @@
 				<DESCRIPTION>Define style this season with Versace's new range of shirts, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Pants>
+		<TYPE type = 'Pants'>
 			<PRODUCT Id = '22'>
 				<IMAGE>images/women_pants1</IMAGE>
 				<IMAGE2>images/women_pants1_2</IMAGE2>
@@ -140,7 +140,7 @@
 				<DESCRIPTION>Define style this season with Jack Honey's new range of pants, crafted with intricate details.</DESCRIPTION>
 			</PRODUCT>
 		</TYPE>
-		<TYPE type = Accessories>
+		<TYPE type = 'Accessories'>
 			<PRODUCT Id = '25'>
 				<IMAGE>images/women_acc1</IMAGE>
 				<IMAGE2>images/women_acc1_2</IMAGE2>
