@@ -24,17 +24,17 @@ function myFunction(data){
 		document.getElementsByClassName("textproduct")[count].innerHTML = 	$(product[count]).find("NAME").text()
 	}
 }
-function manXmlFilter(type){
+function manXmlFilter(type,brand){
 	$( document ).ready(function() {
 	    $.ajax({
 	        type: "GET",
 	        url: 'xml/data.xml',
 	        dataType: "xml",
-	        success: function (xml) { filterMen(xml,type); }
+	        success: function (xml) { filterMen(xml,type,brand); }
 	    });
 	});
 }
-function filterMen(data,type){
+function filterMen(data,type,brand){
 	var product = $(data).find('PRODUCT')
 	var filter =[]
 	product.each(function(){
@@ -47,7 +47,13 @@ function filterMen(data,type){
 	if(type == null){
 		filter = product
 	}
-	console.log($(filter[0]).find('IMAGE').text()) 
+	if(brand != null){
+		filter = []
+		if ($(this).parent().attr('brand') == brand){
+			filter.push(this);
+		}
+
+	}
 	productShown = filter;
 	console.log (productShown)
 	bubblesort(productShown);
@@ -132,7 +138,7 @@ function showProduct(limiter){
 		var goPrev = '<li><a href="#">&laquo;</a></li>'
 		page.append(goPrev);
 		for (var i=0; i<Math.floor(productShown.length/limiter);i++){
-			var string = '<li><a href="" onclick="showProduct()">'+(i+1).toString()+'</a></li>'
+			var string = '<li><a href="#" onclick="showProduct()">'+(i+1).toString()+'</a></li>'
 			page.append(string)
 		}
 		var goNext = '<li><a href="#">&raquo;</a></li>'
@@ -144,4 +150,16 @@ function showProduct(limiter){
 function changeClass(chage){
 	$(".btn.btn-default.btn-primary").attr('class', 'btn btn-default btn-sm');
 	$(chage).attr("class",'btn btn-default btn-primary')
+}
+function filterBrand(){
+	//console.log("asdas")
+	var filterString ="";
+	$('.check').each(function(){
+		//console.log($(this).text())
+		if($(this).prop( "checked", true )){
+			filterString += $(this).text()
+		}
+	})
+	console.log(filterString)
+
 }
